@@ -1,0 +1,22 @@
+@import url("/node_modules/bootstrap/dist/css/bootstrap.min.css");
+html {
+  height: 100vh;
+}
+body {
+  height: 100%;
+}
+#main {
+  margin: auto;
+  position: relative;
+}
+#tooltip {
+  box-sizing: border-box;
+  padding: 10px;
+  opacity: 90%;
+}
+#title {
+  font-size: 2rem;
+}
+.bar:hover {
+  fill: white;
+}
